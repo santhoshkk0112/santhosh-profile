@@ -1,0 +1,438 @@
+@font-face{
+	font-family: "Geog-RgIt";
+	src: url('../fonts/Geog-RgIt.otf');
+}
+@font-face{
+	font-family: "Geog-MdIt";
+	src: url('../fonts/Geog-MdIt.otf');
+}
+@font-face{
+	font-family: "Geogtq-Bd";
+	src: url('../fonts/Geogtq-Bd.otf');
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,ol{
+	margin: 0;
+	padding: 0;
+}
+a:hover,a:focus,a:visited{
+	text-decoration: none;
+	outline: 0px;
+}
+body{
+	font-family: "Geog-MdIt";
+	font-size: 14px;
+	color: #4a5372 ;
+	letter-spacing: 0.5px;
+	line-height: 22px;
+}
+.clear{
+	clear: both;
+}
+header ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+header #main_header ul li a{
+	padding: 15px 20px;
+	display: inline-block;
+	color: #FFF;
+	font-family: "Geogtq-Bd";
+	font-size: 120%;
+}
+header #main_header{
+	background: #61ACC2;
+}
+header #main_header ul li:first-child a{
+	padding: 5px 20px 5px 0;
+}
+#main_content{
+	min-height: 100vh;
+	padding: 50px 0;
+	text-align: center;
+	position: relative;
+	background-size: 100% 100% !important;
+}
+figure,figcaption,section,main,article{
+	display: block;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+#main_content img{
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin: 0 auto 10px;
+}
+.myDetails figure{
+	padding: 25px;
+	background: #FFF;
+	position: relative;
+	color: #676767;
+}
+.myDetails figure h2{
+	font-family: "Geogtq-Bd";
+	margin: 0 0 5px;
+}
+.my_detail_education table tr > td:first-child{
+	font-family: "Geogtq-Bd";
+	color: #4A5372;
+}
+#headerCurve {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    background-color: #ECECEC;
+    left: 0;
+}
+section#aboutme{
+	padding: 40px 0 80px;
+	position: relative;
+	color: #7B7B7B;
+}
+.special{
+	position: relative;
+	padding: 0 0 10px;
+	margin: 0 0 15px;
+	font-family: "Geogtq-Bd";
+	color:  #4A5372;
+}
+.special:after {
+    content: "";
+    width: 200px;
+    height: 2px;
+    background:#7B7B7B;
+    top: 100%;
+    position: absolute;
+    left: 0;
+}
+section#aboutme p{
+	color: #4a5372;
+	font-family: "Geog-MdIt";
+}
+section#aboutme p:not(:last-child){
+	margin: 0 0 10px;
+}
+#travelMessageCurve {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    bottom: -1px;
+    left: 0;
+}
+.education_list{
+	margin: 0 -10px;
+}
+.education_list > li{
+	float: left;
+	padding: 10px;
+	display: block;
+	list-style-type: none;
+}
+.education_list > li:first-child{
+	width: 20%;
+}
+.education_list > li:last-child{
+	width: 80%;
+}
+#my_education{
+	background: #ececec;
+	padding: 70px 0 40px;
+	position: relative;
+}
+.my_edu_tab{
+	background: #FFF;
+}
+.my_edu_tab > li > a{
+	display: inline-block;
+	width: 100%;
+	padding: 10px 15px;
+	font-family: "Geogtq-Bd";
+	color: #4A5372;
+	transition: all 0.5s ease;
+}
+.my_edu_tab > li.active a,.my_edu_tab > li a:hover,
+.my_edu_tab > li.active a:focus{
+	background: #A7A7A7;
+	color: #FFF;
+}
+.my_detail_education article{
+	background: #FFF;
+	padding: 20px;
+	box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.2);
+	min-height: 300px;
+}
+.my_detail_education{
+	color: #7B7B7B;
+}
+.my_detail_education h2{
+	margin: 0 0 20px;
+	padding: 0 0 8px;
+	position: relative;
+	color: #4A5372;
+	font-family: "Geogtq-Bd";
+}
+.my_detail_education h2:after{
+	content: "";
+	background: #4A5372;
+	width: 200px;
+	height: 2px;
+	top: 100%;
+	left: 0;
+	position: absolute;
+}
+.my_detail_education td{
+	padding: 3px;
+}
+.my_detail_education tr td:first-child{
+	padding: 3px 10px 3px 3px;
+}
+.my_detail_education tr td{
+	border: 1px solid #4A5372;
+	padding: 7px;
+}
+#officeMessageCurve {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    left: 0;
+}
+#work_experience{
+	padding: 20px 0 100px;
+	word-spacing: 10px;
+	color: #4A5372;
+	position: relative;
+}
+#work_experience main{
+	padding: 20px;
+	margin: 15px 0;
+	box-shadow: 0px 0px 1px 2px rgba(139, 149, 139, 0.5) inset;
+}
+#work_experience main h3{
+	margin: 0 0 10px;
+	font-family: "Geogtq-Bd";
+	color: #4A5372;
+	position: relative;
+	padding: 0 0 10px;
+}
+#work_experience main h3:after{
+	content: "";
+	background: #4A5372;
+	height: 2px;
+	width: 150px;
+	position: absolute;
+	top: 100%;
+	left: 0;
+}
+#work_experience main ul{
+	padding: 0 0 0 15px;
+}
+#work_experience main ul li{
+	list-style-type: disc;
+	margin: 5px 0;
+}
+#work_experience main td{
+	padding: 5px;
+}
+#work_experience main tr td:last-child{
+	font-family: "Geogtq-Bd";
+}
+#exampleCurve{
+	background: #FFF;
+	position: absolute;
+	width: 100%;
+    height: 70px;
+    bottom: -1px;
+    left: 0;
+}
+#work_sample{
+	position: relative;
+	padding: 50px 0 120px;
+	background: #ECECEC;
+}
+.my_white_bg{
+	background: #FFF;
+	padding: 15px;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.2);
+}
+.float_left:before, .float_left:after{
+    content: "";
+    display: table;
+}
+.float_left:after {
+    clear: both;
+}
+.float_left{
+	margin: 0 -10px;
+	position: relative;
+}
+.float_left.width_33 > li{
+	width: 33.33%;
+}
+.float_left > li{
+	padding: 10px;
+	float: left;
+}
+.project_list li div{
+	position: relative;
+	padding: 10px;
+	box-shadow: 0 0 1px 2px rgba(139, 149, 139, 0.5) inset;
+	min-height: 170px;
+}
+.project_list p{
+	text-align: justify;
+	color: #4A5372;
+	font-family: "Geog-MdIt";
+}
+.project_list h4{
+	font-family: "Geogtq-Bd";
+	margin: 0 0 10px;
+	color: #4a5372;
+	position: relative;
+	padding: 0 0 8px;
+}
+.project_list h4:after{
+	position: absolute;
+	content: "";
+	width: 250px;
+	background: #4a5372;
+	height: 2px;
+	left: 0;
+	top: 100%;
+}
+.project_list li div:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #e1e1e1;
+	-webkit-transform: scaleY(0);
+	transform: scaleY(0);
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	transition : transform 0.4s ease-out;
+	-webkit-transition : transform 0.4s ease-out;
+	z-index: 1;
+}
+.project_list li div:hover:before{
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+.project_list li div a{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 2;
+	visibility: hidden;
+	display: inline-block;
+	background: #FFF;
+	padding: 5px 10px;
+	font-family: "Geogtq-Bd";
+	color: #61ACC2;
+}
+.project_list li div:hover a{
+	visibility: visible;
+	transform: visibility 0.5s ease-out;
+	background: #61ACC2;
+	color: #FFF;
+}
+footer{
+	padding: 5px 0;
+	background: #61ACC2;
+	color: #FFF;
+}
+.skillbar {
+	font-family: "Geogtq-Bd";
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:25px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	font-size:13px;
+	color:#fff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:25px;
+	line-height:25px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+.skillbar-bar {
+	height:25px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:25px;
+	line-height:35px;
+}
+.technical_skills{
+	background: #FFF;
+	padding: 20px;
+}
+.flex_row{
+	display: flex;
+	width: 100%;
+	box-shadow: 0 0 3px 0 #651B34;
+}
+.flex_row > .flex_two{
+	width: 50%;
+	background: #FFF;
+	padding: 10px;
+}
+.flex_row > .flex_two + .flex_two{
+	border-left: 2px solid #651B34;
+}
